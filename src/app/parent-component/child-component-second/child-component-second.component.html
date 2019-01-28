@@ -1,0 +1,6 @@
+<select name="changeColor" id="" (change)="this.changeColor($event)">
+  <option value="" selected disabled>Change color</option>
+  <option *ngFor="let item of this.colorArray" value="{{item.value}}">
+    {{item.title}}
+  </option>
+</select>

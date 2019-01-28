@@ -1,0 +1,29 @@
+h1 {}
+
+.normal {
+    font-size: 14px;
+}
+.sizeSmall {
+    font-size: 20px;
+}
+
+.sizeMedium {
+    font-size: 24px;
+}
+
+.sizeLarge {
+    font-size: 28px;
+}
+
+.black {
+    color: black;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}

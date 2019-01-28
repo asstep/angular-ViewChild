@@ -1,0 +1,9 @@
+<mat-grid-list cols="3" rowHeight="100px">
+  <mat-grid-tile
+          *ngFor="let item of this.sizeArray"
+          [style.background]="item.color">
+    <label for="size{{item.value}}">{{item.title}}</label>
+    <input type="radio" value="{{item.value}}" name="changeSize" id="size{{item.value}}"/>
+  </mat-grid-tile>
+</mat-grid-list>
+
